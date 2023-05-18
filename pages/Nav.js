@@ -8,7 +8,7 @@ export default function Nav() {
       <ul className={styles.navlist}>
         <li className={styles.navitem}>
           <h1 className={styles.title}>
-            <Link href="/" className={styles.navlink}>
+            <Link href="/page" className={styles.navlink}>
               Homepagina
             </Link>
           </h1>

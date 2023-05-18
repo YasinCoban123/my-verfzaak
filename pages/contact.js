@@ -1,62 +1,39 @@
-import { useState } from 'react';
-import Link from 'next/link';
+import Image from 'next/image';
 import styles from './page.module.css';
 import Nav from './Nav';
+import React from "react";
 
-
-const ContactPage = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log(`Name: ${name}`);
-    console.log(`Email: ${email}`);
-    console.log(`Message: ${message}`);
-    // Reset the form fields
-    setName('');
-    setEmail('');
-    setMessage('');
-  };
-
+export default function Home() {
   return (
-    <div>
-      <nav>
-        <ul>
-          <li>
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact">
-              <a>Contact</a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
-      <h1 className={styles.heading}>Contact Us</h1>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Name:
-          <input type="text" value={name} onChange={(event) => setName(event.target.value)} />
-        </label>
+    <div className={styles.container}>
+      <Nav /> {/* Use the Nav component */}
+
+      <main className={styles.main}>
+        Get started by editing&nbsp;
+        <code className={styles.code}>app/page.js</code>
         <br />
-        <label>
-          Email:
-          <input type="email" value={email} onChange={(event) => setEmail(event.target.value)} />
-        </label>
-        <br />
-        <label>
-          Message:
-          <textarea value={message} onChange={(event) => setMessage(event.target.value)} />
-        </label>
-        <br />
-        <button type="submit" className={styles.button}>Submit</button>
-      </form>
+        By{' '}
+        <Image
+          src="/vercel.svg"
+          alt="Vercel Logo"
+          className={styles.vercelLogo}
+          width={100}
+          height={24}
+          priority
+        />
+        <Image
+          className={styles.logo}
+          src="/next.svg"
+          alt="Next.js Logo"
+          width={180}
+          height={37}
+          priority
+        />
+        <p>Find in-deptpppppppph information about Next.js features and API.</p>
+        <p>Learn about Next.js in an interactive course with quizzes!</p>
+        <p>Explore the Next.js 13 playground.</p>
+        <p>Instantly deploy your Next.js site to a shareable URL with Vercel.</p>
+      </main>
     </div>
   );
-};
-
-export default contact;
+}

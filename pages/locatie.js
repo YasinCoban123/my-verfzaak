@@ -1,19 +1,40 @@
-import Link from 'next/link';
+import Image from 'next/image';
 import styles from './page.module.css';
 import Nav from './Nav';
+import React from "react";
+import Link from "next/link";
 
-const LocationPage = () => {
+export default function Home() {
   return (
-    <div>
-      <Nav />
-      <div className={styles['location-container']}>
-        <h1 className={styles['location-heading']}>Locatie pagina</h1>
-        <p className={styles['location-info']}>Welkom naar ons locatie pagina. hier kunt u vinden waar ons vestiging is.</p>
-        <p className={styles['location-info']}>Address:  Pendrechtstraat 100-Rotterdam</p>
-        <p className={styles['location-info']}>Contact: 06-37157527</p>
-      </div>
+    <div className={styles.container}>
+      <Nav /> {/* Use the Nav component */}
+
+      <main className={styles.main}>
+        Get started by editing&nbsp;
+        <code className={styles.code}>app/page.js</code>
+        <br />
+        By{' '}
+        <Image
+          src="/vercel.svg"
+          alt="Vercel Logo"
+          className={styles.vercelLogo}
+          width={100}
+          height={24}
+          priority
+        />
+        <Image
+          className={styles.logo}
+          src="/next.svg"
+          alt="Next.js Logo"
+          width={180}
+          height={37}
+          priority
+        />
+        <p>Find in-depth information about Next.js features and API.</p>
+        <p>Learn about Next.js in an interactive course with quizzes!</p>
+        <p>Explore the Next.js 13 playground.</p>
+        <p>Instantly deploy your Next.js site to a shareable URL with Vercel.</p>
+      </main>
     </div>
   );
-};
-
-export default locatie;
+}
