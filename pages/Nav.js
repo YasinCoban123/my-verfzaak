@@ -4,7 +4,9 @@ import styles from './page.module.css';
 export default function Nav() {
   return (
     <nav className={styles.navbar}>
+      <Link href="/page">
       <img src="/verfzaakLogo.png" alt="Your Picture" className={styles.picture} />
+      </Link>
       <ul className={styles.navlist}>
         <li className={styles.navitem}>
           <h1 className={styles.title}>
