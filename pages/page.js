@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from './page.module.css';
+import styles from './globals.css';
 import Nav from './Nav';
 import React from "react";
 import Link from "next/link";
