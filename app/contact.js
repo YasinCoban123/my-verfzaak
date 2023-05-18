@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styles from './page.module.css';
 import Nav from './Nav';
 
+
 const ContactPage = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');

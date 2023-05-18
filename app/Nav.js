@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from './page.module.css';
+import PageLoader from "next/dist/client/page-loader";
 
 
 export default function Nav() {
