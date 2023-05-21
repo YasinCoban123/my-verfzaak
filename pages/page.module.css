@@ -119,6 +119,11 @@
   z-index: 2;
   font-family: var(--font-mono);
 }
+.perr {
+  color: black;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .description a {
   display: flex;

@@ -37,3 +37,11 @@ export default function Home() {
     </div>
   );
 }
+export function Footer() {
+  return (
+ <p className={styles.perr}>
+  this is the footer
+ </p>
+
+  );
+}
