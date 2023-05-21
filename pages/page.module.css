@@ -350,7 +350,7 @@
 
 .navbar ul li a {
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .navlist {
@@ -396,3 +396,95 @@
   color: #333;
   font-size: 24px;
 }
+
+
+
+.normcss {
+  background-color: #063d54;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+.contactForm {
+  display: grid;
+  grid-gap: 1rem;
+  background-color: #f7f7f7;
+  padding: 1.5rem;
+  border-radius: 4px;
+}
+
+.formGroup {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-gap: 0.5rem;
+  color: black;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.inputField {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.textAreaField {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.submitButton {
+  padding: 0.5rem 1rem;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #0053b3;
+}
+
+
+
+/* styles.css */
+
+/* body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+  margin: 16px 0;
+}
+
+p {
+  margin: 8px 0;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+} 
+*/

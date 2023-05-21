@@ -6,6 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
+    <section className={styles.normcss}>
     <div className={styles.container}>
       <Nav /> {/* Use the Nav component */}
 
@@ -36,5 +37,6 @@ export default function Home() {
         <p>Instantly deploy your Next.js site to a shareable URL with Vercel.</p>
       </main>
     </div>
+    </section>
   );
 }
