@@ -11,30 +11,63 @@ export default function Home() {
       <Nav /> {/* Use the Nav component */}
 
       <main className={styles.main}>
-        Get started by editing&nbsp;
-        <code className={styles.code}>app/page.js</code>
-        <br />
-        By{' '}
+      <h1 className={styles.h1home}>
+        Over Ons
+        </h1>
+        <p>VerfXpert, opgericht in 1999 door Yasin Coban, is gevestigd in de prachtige Beijerlandselaan. 
+          Al vanaf het begin is VerfXpert dé betrouwbare en kwalitatieve plek die jouw huis omtovert met een vakkundige schilderbeurt.
+          Met meer dan twee decennia ervaring hebben we een sterke reputatie opgebouwd in de schildersindustrie. 
+          Ons team van gepassioneerde vakmensen is toegewijd aan het leveren 
+          van hoogwaardige schilder- en decoratiediensten die voldoen aan de verwachtingen van onze gewaardeerde klanten.
+          </p>
         <Image
-          src="/vercel.svg"
-          alt="Vercel Logo"
-          className={styles.vercelLogo}
+          className={styles.fotosverfzaak}
+          src="/schild5.png"
+          alt="Foto verfwebsite"
           width={100}
-          height={24}
-          priority
+          height={100}
         />
+        <p>Bij VerfXpert geloven we in maatwerk en streven we ernaar om jouw visie werkelijkheid te laten worden. 
+          Of het nu gaat om een interieur- of exterieurproject, we werken nauw met jou samen om de perfecte kleuren, 
+          afwerkingen en technieken te kiezen die passen bij jouw stijl en behoeften.
+          Onze vakbekwame schilders zijn getraind in de nieuwste technieken en maken gebruik van 
+          hoogwaardige verfproducten om duurzame en prachtige resultaten te garanderen. 
+          We begrijpen dat jouw huis een belangrijke investering is, 
+          daarom zetten we ons in voor uitmuntend vakmanschap en zorgen we ervoor dat elk detail met zorg wordt behandeld.
+          </p>
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+          className={styles.fotosverfzaak}
+          src="/schild6.jpg"
+          alt="Foto verfwebsite"
+          width={100}
+          height={100}
         />
-        <p>Find in-depth information about Next.js features and API.</p>
-        <p>Learn about Next.js in an interactive course with quizzes!</p>
-        <p>Explore the Next.js 13 playground.</p>
-        <p>Instantly deploy your Next.js site to a shareable URL with Vercel.</p>
+        <p>Naast ons schilderwerk bieden we ook aanvullende diensten aan, 
+          zoals wandafwerking, behangen en kleuradvies. We streven ernaar om een allesomvattende oplossing te bieden 
+          voor al jouw schilder- en decoratiebehoeften, 
+          zodat je één vertrouwde bron hebt voor het transformeren van jouw leefruimte.
+          </p>
+        <Image
+          className={styles.fotosverfzaak}
+          src="/schild7.jpeg"
+          alt="Foto verfwebsite"
+          width={100}
+          height={100}
+        />
+        <p>Bij VerfXpert geloven we in een persoonlijke aanpak en uitstekende klantenservice. 
+          We luisteren naar jouw wensen, beantwoorden al jouw vragen en zorgen ervoor dat je tevreden bent met het 
+          eindresultaat. Jouw tevredenheid is onze grootste beloning.
+          Bedankt dat je de tijd hebt genomen om meer te weten te komen over VerfXpert. 
+          We kijken ernaar uit om met jou samen te werken en jouw huis te laten stralen met onze expertise en passie voor schilderwerk.
+          </p>
+        <Image
+          className={styles.fotosverfzaak}
+          src="/schild8.png"
+          alt="Foto verfwebsite"
+          width={100}
+          height={100}
+        />
+        <br/><br/><br/><br/><br/><br/><br/>
       </main>
     </div>
     </section>

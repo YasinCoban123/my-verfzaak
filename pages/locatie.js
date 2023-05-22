@@ -10,30 +10,43 @@ export default function Home() {
       <Nav /> {/* Use the Nav component */}
 
       <main className={styles.main}>
-        Get started by editing&nbsp;
-        <code className={styles.code}>app/page.js</code>
-        <br />
-        By{' '}
+      <h1 className={styles.h1home}>
+        Locatie Pagina
+        </h1>
+        <p>Bij VerfXpert hebben we bewust gekozen voor één vestiging. 
+          Dit stelt ons in staat om jou de beste service te bieden met een consistent kwaliteitsniveau.
+          Onderaan kunt u meer info vinden over waar wij geloceerd zijn.</p>
         <Image
-          src="/vercel.svg"
-          alt="Vercel Logo"
-          className={styles.vercelLogo}
+          className={styles.fotosverfzaak}
+          src="/schild9.jpg"
+          alt="Foto verfwebsite"
           width={100}
-          height={24}
-          priority
+          height={100}
         />
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <p>Find in-depth information about Next.js features and API.</p>
-        <p>Learn about Next.js in an interactive course with quizzes!</p>
-        <p>Explore the Next.js 13 playground.</p>
-        <p>Instantly deploy your Next.js site to a shareable URL with Vercel.</p>
+        <ul>
+          <li>
+            <p>Adress: Beijerlandselaan 173D</p>
+          </li>
+          <li>
+            <p>Postcode: 3074EH</p>
+          </li>
+          <li>
+            <p>Stad: Rotterdam-Zuid-Holland</p>
+          </li>
+        </ul>
+        <p>
+         Hieronder vindt u onze openingstijden op onze fysieke locatie. 
+         Voor meer informatie over het maken van een telefonische afspraak 
+         verwijzen wij u graag naar onze contactpagina.</p>
+        <ul>
+          <li>
+            <p>Open dage: Maandag t/m Zondag</p>
+          </li>
+          <li>
+            <p>Open uren: 9.00 t/m 18.00</p>
+          </li>
+        </ul>
+        <br/><br/><br/><br/><br/><br/><br/>
       </main>
     </div>
     </section>

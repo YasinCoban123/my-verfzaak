@@ -365,7 +365,7 @@
 }
 
 .navlink {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   padding: 0.5rem;
@@ -378,8 +378,16 @@
   flex-direction: column;
   align-items: right;
   justify-content: right;
+  top: 50%;
+  left: 50%;
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: center;
 }
-
+.fotosverfzaak{
+  width: 400px;
+  height: 400px;
+}
 .logo {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -397,12 +405,23 @@
   font-size: 24px;
 }
 
+.h1home{
+  font-size: 35px;
+  margin-top: 250px;
+}
+.fotosverfzaak{
+  height: auto;
+  width: auto;
+}
 
 
 .normcss {
   background-color: #063d54;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
+ 
+  
+  
 }
 .contactForm {
   display: grid;
