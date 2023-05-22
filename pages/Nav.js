@@ -3,6 +3,7 @@ import styles from './page.module.css';
 
 export default function Nav() {
   return (
+    <section className={styles.normcss}>
     <nav className={styles.navbar}>
       <Link href="/page">
       <img src="/verfzaakLogo.png" alt="Your Picture" className={styles.picture} />
@@ -38,5 +39,6 @@ export default function Nav() {
         </li>
       </ul>
     </nav>
+    </section>
   );
 }
