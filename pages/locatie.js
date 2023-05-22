@@ -20,8 +20,9 @@ export default function Home() {
           className={styles.fotosverfzaak}
           src="/schild9.jpg"
           alt="Foto verfwebsite"
-          width={100}
-          height={100}
+          width={500}
+          height={300}
+          quality={100}
         />
         <ul>
           <li>
