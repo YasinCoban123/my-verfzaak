@@ -34,9 +34,9 @@ export default function Home() {
               className={styles.fotosverfzaak}
               src="/schild2.jpg"
               alt="Foto verfwebsite"
-              width={500}
-              height={300}
-              quality={100}
+              width={350}
+          height={150}
+          quality={80}
             />
           </div>
           <p>Bij Verfxpert streven we ernaar om hoogwaardige service en vakmanschap te leveren.
@@ -47,8 +47,8 @@ export default function Home() {
               className={styles.fotosverfzaak}
               src="/schild3.jpg"
               alt="Foto verfwebsite"
-              width={500}
-              height={300}
+              width={350}
+              height={150}
               quality={80}
             />
           </div>
@@ -59,8 +59,8 @@ export default function Home() {
               className={styles.fotosverfzaak}
               src="/schild4.jpg"
               alt="Foto verfwebsite"
-              width={500}
-              height={300}
+              width={350}
+              height={150}
               quality={80}
             />
           </div>

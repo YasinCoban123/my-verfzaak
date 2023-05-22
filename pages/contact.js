@@ -23,9 +23,9 @@ export default function Home() {
           className={styles.fotosverfzaak}
           src="/schild11.jpg"
           alt="Foto verfwebsite"
-          width={500}
-          height={300}
-          quality={100}
+          width={400}
+          height={200}
+          quality={80}
         />
         <p>
           Onderaan deze pagina vindt u alle informatie die u nodig heeft om contact met ons op te nemen. 

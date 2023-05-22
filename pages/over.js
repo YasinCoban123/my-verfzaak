@@ -24,9 +24,9 @@ export default function Home() {
           className={styles.fotosverfzaak}
           src="/schild5.png"
           alt="Foto verfwebsite"
-          width={500}
-          height={300}
-          quality={100}
+          width={350}
+          height={150}
+          quality={80}
         />
         <p>Bij VerfXpert geloven we in maatwerk en streven we ernaar om jouw visie werkelijkheid te laten worden. 
           Of het nu gaat om een interieur- of exterieurproject, we werken nauw met jou samen om de perfecte kleuren, 
@@ -40,9 +40,9 @@ export default function Home() {
           className={styles.fotosverfzaak}
           src="/schild6.jpg"
           alt="Foto verfwebsite"
-          width={500}
-          height={300}
-          quality={100}
+          width={350}
+          height={150}
+          quality={80}
         />
         <p>Naast ons schilderwerk bieden we ook aanvullende diensten aan, 
           zoals wandafwerking, behangen en kleuradvies. We streven ernaar om een allesomvattende oplossing te bieden 
@@ -53,9 +53,9 @@ export default function Home() {
           className={styles.fotosverfzaak}
           src="/schild7.jpeg"
           alt="Foto verfwebsite"
-          width={500}
-          height={300}
-          quality={100}
+          width={350}
+          height={150}
+          quality={80}
         />
         <p>Bij VerfXpert geloven we in een persoonlijke aanpak en uitstekende klantenservice. 
           We luisteren naar jouw wensen, beantwoorden al jouw vragen en zorgen ervoor dat je tevreden bent met het 
@@ -67,9 +67,9 @@ export default function Home() {
           className={styles.fotosverfzaak}
           src="/schild8.png"
           alt="Foto verfwebsite"
-          width={500}
-          height={300}
-          quality={100}
+          width={350}
+          height={150}
+          quality={80}
         />
         <br/><br/><br/><br/><br/><br/><br/>
       </main>
